@@ -45,7 +45,7 @@
     text-align: left;
     color: #ffff;
     margin: 32px auto 0 148px;
-    Width :720px;
+    width :720px;
 }
 @media screen and (max-width: 768px) {
     .intro {

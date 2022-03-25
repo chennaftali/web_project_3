@@ -4,8 +4,8 @@
     grid-template-columns: repeat(4 , 1fr);
     max-width: 1184px;
     margin-right: 48px;
-    margin-left: 48px; 
-    padding-top: 118px; 
+    margin-left: 48px;
+    padding-top: 118px;
     padding-left: 0;
 }
 .grid__item{
@@ -34,7 +34,6 @@
 
     }
   }
-  
   @media screen and (max-width: 320px) {
     .grid {
       grid-template-columns: 100%;
