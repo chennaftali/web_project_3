@@ -12,7 +12,7 @@ li{
     list-style: none;
     object-fit: contain;
 }
-.grid__img{
+.photo-grid_img{
     margin: 0;
     width: 100%;
     object-fit: contain;
@@ -25,7 +25,7 @@ li{
         max-width: 720px;
       }
     
-    .grid__img{
+    .photo-grid_img{
         max-width: 352px;
         object-fit: contain;
 
