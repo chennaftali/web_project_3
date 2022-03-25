@@ -1,0 +1,195 @@
+.places{
+    margin: 92px 148px auto 148px;
+}
+.place{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: minmax(460px, 1fr) 1fr;
+    grid-template-rows: auto auto 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+    padding-bottom: 80px;
+}
+.place__title{
+    color: #fff;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-self: flex-end;
+    margin: 0;
+}
+.place__website{
+    align-self: flex-end;
+}
+.place__url-heading{
+    color: #AAAAAA;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    margin: 0;
+}
+.place__artist{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.place__descriptin{
+    grid-column: 2/ 3;
+    grid-row: 2/ -1;
+    margin: 0;  
+}
+.place__paragraph{
+    color: #fff;
+    font-size: 18px;
+    line-height: 29px;
+
+    max-width: 484px;
+    align-self: flex-start;
+    margin-top: 0;
+}
+.place__button{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    background: #0278FE;
+    color: #fff;
+    text-decoration: none;
+    max-height: 48px;
+    max-width: 248px;
+    border-radius: 4px;
+    padding: 13px 20px;
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.place__button:hover{
+    background: #0063d2;
+}
+@media screen and (max-width: 768px) {
+    .places {
+      margin: 88px auto 0 auto;
+      max-width: 720px;
+    }
+    .place{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: minmax(340px, 1fr) 1fr;
+        grid-template-rows: auto auto 1fr;
+        column-gap: 28px;
+        row-gap: 25px;
+        padding-bottom: 0;
+    }
+    .place__title{
+        font-size: 42px;
+        max-width: 340px;
+    }
+    .place__artist{
+        margin: 8px 0 0 0;
+    }
+    .place__url-heading{
+        margin: 0;
+    }
+    .place__paragraph{
+        max-width: 352px;
+        font-size: 16px;
+    }
+    .place__image{
+        max-width: 340px;
+    }
+    .place__button{
+        max-width: 248px;
+        margin-top: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+        .places {
+            margin: 62px auto 0 auto;
+            max-width: 320px;
+        }
+        .place{
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+        .place__title{
+            font-size: 32px;
+            width: 288px;
+            padding: 0 16px;
+        }
+        .place__website{
+            margin: 30px 16px 0 16px;
+
+        }
+        .place__artist{
+           margin: 8px 0 0 0;
+        }
+        .place__url-heading{
+           margin: 0;
+        }
+        .place__image{
+           max-width: 320px;
+        } 
+        .place__paragraph{
+            max-width: 288px;
+            font-size: 16px;
+            margin: 30px 16px 0 16px;
+        }
+        .place__button{
+          max-width: 288px;
+          margin: 30px 16px 0 16px;
+        }
+    }
+    @media screen and (min-width :321px) and (max-width :470px){
+        .places {
+            margin: 62px auto 0 auto;
+            max-width: 320px;
+        }
+        .place{
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+        .place__title{
+            font-size: 32px;
+            width: 288px;
+            padding: 0 16px;
+        }
+        .place__website{
+            margin: 30px 16px 0 16px;
+
+        }
+        .place__artist{
+           margin: 8px 0 0 0;
+        }
+        .place__url-heading{
+           margin: 0;
+        }
+        .place__image{
+           max-width: 320px;
+        } 
+        .place__paragraph{
+            max-width: 288px;
+            font-size: 16px;
+            margin: 30px 16px 0 16px;
+        }
+        .place__button{
+          max-width: 288px;
+          margin: 30px 16px 0 16px;
+        }
+    }
