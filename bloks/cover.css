@@ -110,7 +110,7 @@
       max-width: 137px;
     }
   }
-  @media screen and (min-width :321px) and (max-width :470px){
+  @media screen and (min-width:321px) and (max-width:470px){
     .cover {
       max-width: 320px;
       width: 100%;
