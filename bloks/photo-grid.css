@@ -8,11 +8,11 @@
     padding-top: 118px;
     padding-left: 0;
 }
-.grid__item{
+li{
     list-style: none;
     object-fit: contain;
 }
-.grid_img{
+.grid__img{
     margin: 0;
     width: 100%;
     object-fit: contain;
@@ -24,11 +24,8 @@
         margin-top: 90px;
         max-width: 720px;
       }
-    .grid__item {
-      height: 100%;
-      max-width: 352px;
-    }
-    .grid_img{
+    
+    .grid__img{
         max-width: 352px;
         object-fit: contain;
 
