@@ -3,12 +3,13 @@
     grid-gap: 16px;
     grid-template-columns: repeat(4 , 1fr);
     max-width: 1184px;
+    margin: 0;
     margin-right: 48px;
     margin-left: 48px;
     padding-top: 118px;
     padding-left: 0;
 }
-li{
+.photo-grid__item{
     list-style: none;
     object-fit: contain;
 }

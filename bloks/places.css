@@ -33,6 +33,7 @@
     letter-spacing: 0.12em;
     text-align: left;
     margin: 0;
+    text-transform: uppercase;
 }
 .place__artist{
     color: #fff;
@@ -40,7 +41,8 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-
+    margin: 0;
+    margin-top: 8px;
 }
 
 .place__descriptin{
@@ -55,7 +57,7 @@
 
     max-width: 484px;
     align-self: flex-start;
-    margin-top: 0;
+    margin: 0;
 }
 .place__button{
     font-size: 18px;
@@ -86,7 +88,6 @@
     }
     .place{
         max-width: 100%;
-        display: grid;
         grid-template-columns: minmax(340px, 1fr) 1fr;
         grid-template-rows: auto auto 1fr;
         column-gap: 28px;
@@ -106,6 +107,7 @@
     .place__paragraph{
         max-width: 352px;
         font-size: 16px;
+        line-height: 26px;
     }
     .place__image{
         max-width: 340px;
@@ -116,7 +118,7 @@
     }
   }
   
-  @media screen and (max-width: 320px) {
+  /*@media screen and (max-width: 320px) {
         .places {
             margin: 62px auto 0 auto;
             max-width: 320px;
@@ -153,8 +155,8 @@
           max-width: 288px;
           margin: 30px 16px 0 16px;
         }
-    }
-    @media screen and (min-width:321px) and (max-width:470px) {
+    }*/
+    @media screen and (min-width:320px) and (max-width:470px) {
         .places {
             margin: 62px auto 0 auto;
             max-width: 320px;
