@@ -70,19 +70,3 @@ padding-top: 91px;
         margin: 40px auto 0 auto;
     }
 }
-@media screen and (min-width:321px) and (max-width:767px){
-    .lead__title{
-        max-width: 288px;
-        line-height: 44px;
-        width: 100%;
-        font-size: 40px;
-    }
-}
-@media screen and (min-width:321px) and (max-width:991px){
-    .lead__img{
-        max-width: 320px;
-        width: 100vw;
-        max-height: 200px;
-        margin: 40px auto 0 auto;
-    }
-}
