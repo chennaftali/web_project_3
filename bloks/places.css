@@ -60,7 +60,8 @@
     margin: 0;
 }
 .place_paragraph:last-child {
-     margin-bottom: 0 }
+     margin-bottom: 0;
+     }
 .place__button{
     font-size: 18px;
     font-style: normal;
