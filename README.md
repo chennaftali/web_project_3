@@ -18,4 +18,4 @@ The way you'll do this at work is by exporting images directly from Figma — we
   
 Good luck and have fun!  
 *[Link to my project ] (https://chennaftali.github.io/web_project_3/)
-I used HTML ,CSS 
+I used: HTML ,CSS .
