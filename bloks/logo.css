@@ -1,16 +1,11 @@
 .logo{
     
     padding-top: 34px;
-    padding-left: 505px;
     display: block;
+    align-self: center;
+    display: flex;
+    margin: auto;
 }
-@media screen and (max-width: 768px) {
-    .logo {
-      padding-top: 34px;
-      padding-left: 249px;
-    }
-  }
-  
   @media screen and (max-width: 320px) {
     .logo {
       margin: auto;
