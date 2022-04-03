@@ -40,7 +40,6 @@
       grid-template-columns: 100%;
       grid-template-rows: repeat(8, 1fr);
       gap: 12px 0px;
-      margin-top: 90px;
       max-width: 288px;
       display: flex;
       flex-direction: column;

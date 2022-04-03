@@ -59,14 +59,15 @@
       }
       .intro__title {
         max-width: 100%;
-        margin: 0;
+        margin: auto;
+        text-align: left;
       }
       .intro__author{
-        margin: 0;
+        margin: auto;
       }
     .intro__subtitle{
       max-width: 100%;
-      margin: 0;
+      margin: auto;
       padding-top: 40px;
       padding-left: 0px;
     }

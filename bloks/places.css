@@ -87,6 +87,12 @@
     background: #0063d2;
 }
 
+@media screen and (max-width: 768px) and (max-width: 1280px){
+    .places {
+        max-width: 760px;
+        margin: auto;
+      }
+    }
 @media screen and (max-width: 768px) {
     .places {
       margin: 88px auto 0 auto;
@@ -146,7 +152,6 @@
         }
         .place__website{
             margin: 30px 16px 0 16px;
-
         }
         .place__artist{
            margin: 8px 0 0 0;
