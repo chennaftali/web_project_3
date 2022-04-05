@@ -11,6 +11,7 @@
     row-gap: 48px;
     padding-top: 80px;
     padding-left: 148px;
+    padding-right: 24px;
 }
 .place__title{
     color: #fff;
@@ -141,19 +142,7 @@
         margin-top: 32px;
     }
   }
-  /*@media screen and (min-width: 471px) and (max-width: 680px) {
-    .place {
-      max-width: 320px;
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: center;
-      margin: auto;
-      padding-top: 50px;
-      padding-bottom: 0;
-      gap: 30px;
-    }
-  }*/
+  
     @media screen and (min-width:320px) and (max-width:680px) {
         .places {
             margin: 62px auto 0 auto;

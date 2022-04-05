@@ -1,5 +1,7 @@
 .cover{
     max-width: 1184px;
+    min-height: 740px;
+
     position: relative;
     background-image: url(../image/background.png);
     background-position: center;
@@ -12,6 +14,7 @@
     margin: 92px 48px;
     z-index: 1;
 }
+
 .cover__content::before{
     content: "";
     width: 100%;
@@ -69,7 +72,7 @@
   transition-duration: 0.5s;
   cursor: pointer;
   justify-content: center;
-  margin: 32px auto 243px auto;
+  margin: 32px auto 0 auto;
   z-index: 4;
 }
 .cover__button:hover{
@@ -78,38 +81,41 @@
   @media screen and (min-width: 768px) and (max-width: 1279px){
     .cover {
      max-width: 100%;
-
+     min-height: 740px;
     }
   }
   
 @media screen and (max-width: 768px) {
     .cover {
       max-width: 768px;
-      
+      min-height: 746px;
       margin: 0;
       margin-top: 92px;
     }
-    .cover__subtitle{
-        text-align: center;
-        margin: 0;
+    .cover__content{
+      max-width: 768px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 @media screen and (max-width: 320px) {
     .cover{
       max-width: 320px;
-      max-width: 100%;
+      min-height: 254px;
       margin: 0 auto;
       margin-top: 64px;
       background-repeat: no-repeat;
     }
     .cover__content{
       max-width: 280px;
-      margin-top: 46px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     .cover__title {
       font-size: 32px;
       line-height: 35px;
-      /*padding-top: 46p;*/
       padding-bottom: 16px;
       margin: 0;
     }
