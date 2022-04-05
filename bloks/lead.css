@@ -17,6 +17,7 @@ display: flex;
 }
 .lead__subtitle{
     margin-top: 32px;
+    margin-bottom: 0;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;

@@ -87,7 +87,7 @@
       max-width: 768px;
       
       margin: 0;
-      margin-top: 20px;
+      margin-top: 92px;
     }
     .cover__subtitle{
         text-align: center;
@@ -95,23 +95,31 @@
     }
   }
 @media screen and (max-width: 320px) {
-    .cover {
+    .cover{
       max-width: 320px;
       max-width: 100%;
-      height: 254px;
-      margin: 64px auto;
+      margin: 0 auto;
+      margin-top: 64px;
       background-repeat: no-repeat;
-      padding: 0;
     }
-  
+    .cover__content{
+      max-width: 280px;
+      margin-top: 46px;
+    }
     .cover__title {
       font-size: 32px;
       line-height: 35px;
+      /*padding-top: 46p;*/
+      padding-bottom: 16px;
+      margin: 0;
     }
   
     .cover__subtitle {
       max-width: 280px;
       font-size: 14px;
       line-height: 16px;
+    }
+    .cover__button{
+      margin-top: 16px;
     }
   }

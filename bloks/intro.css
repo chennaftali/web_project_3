@@ -1,6 +1,7 @@
 .intro{
     padding-top: 92px;
     max-width: 984px;
+    padding-left: 148px;
 }
 .intro__title{
     font-size: 54px;
@@ -11,7 +12,7 @@
     text-align: left;
     color: #ffff;
     max-width: 785px;
-    margin: 0px auto 0 148px;
+    margin: 0px auto 0 0;
 }
 .intro__subtitle{
     font-size: 24px;
@@ -22,8 +23,8 @@
     text-align: left;
     color: #ffff;
     padding-top: 40px;
-    padding-left: 148px;
     max-width: 720px;
+    margin: 0;
 }
 .intro__author{
     font-size: 24px;
@@ -34,8 +35,8 @@
     text-align: end;
     color: #ffff;
     padding-top: 10px;
-    padding-left: 148px;
     max-width: 720px;
+    margin: 0;
 }
 .intro__text{
     font-size: 16px;
@@ -48,12 +49,10 @@
     margin: 0;
     max-width :720px;
     padding-top: 32px;
-    padding-left: 148px;
 }
 @media screen and (max-width: 768px) {
     .intro {
-        margin-right: 24px;
-        margin-left: 24px;
+        padding-left: 24px;
         max-width: 720px;
         padding-top: 88px;
       }
@@ -79,9 +78,10 @@
   }
   @media screen and (max-width: 320px) {
     .intro {
-      margin: 0px auto 0 auto;
+      margin: 0px;
       max-width: 288px;
       padding-top: 64px;
+      padding-left: 16px;
     }
     .intro__title {
         max-width: 288px;
@@ -89,13 +89,14 @@
         line-height: 35px;
       }
       .intro__author{
-        margin: 0;
         max-width: 288px;
+        padding-left: 0;
       }
     .intro__subtitle{
       max-width: 288px;
       margin: 0;
       padding-top: 40px;
+      line-height: 30px;
     }
     .intro__text{
         max-width: 288px;
