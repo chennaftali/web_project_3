@@ -134,9 +134,6 @@
     .place__paragraph:last-child{
         margin-bottom: 0;
     }
-    .place__image{
-        width: 100%;
-    }
     .place__button{
         max-width: 248px;
         margin-top: 32px;
