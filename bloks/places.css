@@ -74,6 +74,9 @@
     margin-bottom: 25px;
     max-width: 100%;
 }
+.place__paragraph:last-child{
+    margin: 0;
+}
 .place__image{
     width: 100%;
 }
@@ -208,6 +211,7 @@
             margin: 0;
         }
         .place__button {
+          width: 288px;
           padding-left: 16px;
           padding-right: 16px;
           align-self: center;
